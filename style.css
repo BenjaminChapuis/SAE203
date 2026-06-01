@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=DM+Sans:wght@400;500;700&display=swap');
+
+/* ─── VARIABLES ─── */
+:root {
+  --teal-light: #c5f9f2;
+  --teal-mid:   #3ce8d7;
+  --teal-dark:  #00bbaa;
+  --red-dot:    #af0000;
+  --black:      #0a0a0a;
+  --white:      #ffffff;
+  --gris:       #d0d0d0;
+}
+
+/* ─── RESET ─── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', Arial, sans-serif;
+  background: var(--white);
+  color: var(--black);
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ══════════════════════════
+   NAVBAR
+══════════════════════════ */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 48px;
+  background: var(--white);
+  border-bottom: 1px solid rgba(0,187,170,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.nav-links-wrapper {
+  background: var(--teal-light);
+  border-radius: 50px;
+  padding: 10px 36px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: var(--teal-dark);
+}
+
+/* ══════════════════════════
+   FOOTER
+══════════════════════════ */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 48px 60px 36px;
+  margin-top: 60px;
+  background: var(--teal-light);
+  border-radius: 60px 60px 0 0;
+}
+
+.footer-logos {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-logos img {
+  height: 48px;
+  width: auto;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-nav a {
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-nav a:hover {
+  color: var(--teal-dark);
+}
+
+.footer-brand {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.dot-rouge {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: var(--red-dot);
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-bottom: 8px;
+}
+
+/* ══════════════════════════
+   PAGE ACCUEIL
+══════════════════════════ */
+
+/* Hero */
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding: 40px 48px;
+  align-items: center;
+}
+
+.hero-photo img {
+  border-radius: 20px;
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  background: var(--gris);
+}
+
+.hero-text {
+  background: var(--teal-light);
+  border-radius: 20px;
+  padding: 36px;
+}
+
+.hero-text h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 48px;
+  letter-spacing: 3px;
+  margin-bottom: 8px;
+}
+
+.hero-text .sous-titre {
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 18px;
+}
+
+.hero-text p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Section dates */
+.section-dates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding: 0 48px 48px;
+  align-items: center;
+}
+
+.dates-left {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.dates-badge {
+  display: inline-block;
+  background: var(--teal-light);
+  border-radius: 50px;
+  padding: 10px 28px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.dates-left p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.dates-photo img {
+  border-radius: 20px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Section lieu */
+.section-lieu {
+  background: var(--teal-light);
+  border-radius: 20px;
+  margin: 0 48px;
+  padding: 36px 40px;
+}
+
+.lieu-titres {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.lieu-titres h2 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+}
+
+.lieu-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  align-items: start;
+}
+
+.lieu-photo img {
+  border-radius: 16px;
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.lieu-content p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* ══════════════════════════
+   PAGE PRÉSENTATION
+══════════════════════════ */
+
+.intro-expo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  padding: 40px 48px 32px;
+  align-items: start;
+}
+
+.intro-texte {
+  background: var(--teal-light);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.intro-texte h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 44px;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+}
+
+.intro-texte h2 {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.intro-texte p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+}
+
+.intro-infos {
+  font-size: 16px;
+  line-height: 2.2;
+  text-align: right;
+  padding: 12px 0;
+}
+
+/* Onglets salles */
+.choix-salles {
+  display: flex;
+  gap: 12px;
+  padding: 0 48px 28px;
+  flex-wrap: wrap;
+}
+
+.btn-salle {
+  background: var(--white);
+  border: 2px solid var(--teal-light);
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #666;
+  transition: all 0.2s;
+}
+
+.btn-salle:hover,
+.btn-salle.active {
+  background: var(--teal-dark);
+  border-color: var(--teal-dark);
+  color: var(--white);
+  font-weight: 700;
+}
+
+/* Détail salle */
+.detail-salle {
+  padding: 0 48px 40px;
+}
+
+.detail-salle h3 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 26px;
+  margin-bottom: 28px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--teal-light);
+}
+
+.row-oeuvre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-bottom: 32px;
+  align-items: start;
+}
+
+.row-oeuvre.reverse {
+  direction: rtl;
+}
+
+.row-oeuvre.reverse > * {
+  direction: ltr;
+}
+
+.image-placeholder {
+  background: var(--gris);
+  border-radius: 16px;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 13px;
+}
+
+.badge-oeuvre {
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  background: var(--teal-light);
+  border-radius: 50px;
+  padding: 6px 18px;
+  margin-bottom: 12px;
+}
+
+.texte-oeuvre {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+  padding: 8px 0;
+}
+
+/* ══════════════════════════
+   PAGE CONTACT
+══════════════════════════ */
+
+.contact-section {
+  background: var(--teal-light);
+  border-radius: 20px;
+  margin: 40px 48px 0;
+  padding: 52px 40px;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 36px;
+}
+
+.contact-section p {
+  font-size: 17px;
+  line-height: 3;
+}
+
+.contact-section a:hover {
+  color: var(--teal-dark);
+  text-decoration: underline;
+}
+
+.referents-section {
+  padding: 36px 48px 0;
+}
+
+.referents-section h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 18px;
+  color: #555;
+}
+
+.referents-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+.referent-card {
+  background: var(--teal-light);
+  border-radius: 14px;
+  padding: 20px;
+  font-size: 13px;
+  line-height: 1.9;
+  transition: transform 0.2s;
+}
+
+.referent-card:hover {
+  transform: translateY(-3px);
+}
+
+.referent-salle {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--teal-dark);
+  margin-bottom: 6px;
+}
+
+/* ══════════════════════════
+   PAGE INSCRIPTION
+══════════════════════════ */
+
+.bandeau-inscription {
+  background: var(--teal-light);
+  border-radius: 20px;
+  margin: 32px 48px 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.bandeau-inscription h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.bandeau-inscription p {
+  font-size: 15px;
+  line-height: 2;
+  color: #333;
+}
+
+.action-reservations {
+  text-align: center;
+  margin: 28px 0 0;
+}
+
+.btn-reservations {
+  display: inline-block;
+  background: var(--white);
+  border: 2px solid var(--teal-mid);
+  border-radius: 50px;
+  padding: 11px 36px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn-reservations:hover {
+  background: var(--teal-light);
+}
+
+.section-formulaire {
+  padding: 36px 48px 0;
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-formulaire h2 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 22px;
+  margin-bottom: 28px;
+}
+
+.form-inscription {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  min-width: 100px;
+}
+
+.form-group input,
+.form-group select {
+  flex: 1;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 50px;
+  background: var(--teal-light);
+  font-size: 14px;
+  font-family: 'DM Sans', Arial, sans-serif;
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  box-shadow: 0 0 0 2px var(--teal-dark);
+}
+
+.form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--teal-dark);
+  flex-shrink: 0;
+  border-radius: 0;
+}
+
+.alert-success {
+  background: #d4edda;
+  color: #155724;
+  padding: 14px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.form-submit {
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+.btn-submit {
+  background: var(--teal-light);
+  border: 2px solid var(--teal-mid);
+  border-radius: 50px;
+  padding: 12px 44px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover {
+  background: var(--teal-mid);
+}
+
+/* ══════════════════════════
+   PAGE RÉSERVATION
+══════════════════════════ */
+
+.reservation-section {
+  padding: 48px;
+  max-width: 680px;
+}
+
+.reservation-section h1 {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 28px;
+}
+
+.reservation-recap {
+  background: var(--teal-light);
+  border-radius: 18px;
+  padding: 30px 36px;
+  font-size: 16px;
+  line-height: 2.6;
+  margin-bottom: 32px;
+}
+
+.reservation-actions {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.btn-resa {
+  background: var(--white);
+  border: 2px solid var(--teal-mid);
+  border-radius: 50px;
+  padding: 11px 30px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background 0.2s;
+  cursor: pointer;
+}
+
+.btn-resa:hover {
+  background: var(--teal-light);
+}
+
+.btn-resa.danger {
+  border-color: #ffb3b3;
+  color: #c0392b;
+}
+
+.btn-resa.danger:hover {
+  background: #fff0f0;
+}

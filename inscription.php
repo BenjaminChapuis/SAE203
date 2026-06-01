@@ -42,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <!-- BOUTON CENTRAL : VOIR MES RÉSERVATIONS -->
         <div class="action-reservations">
-            <a href="#" class="btn-reservations">Voir mes réservations</a>
+            <a href="reservation.php" class="btn-reservations">Voir mes réservations</a>
         </div>
 
         <!-- ZONE DU FORMULAIRE D'INSCRIPTION -->
@@ -124,20 +124,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </form>
         </section>
     </main>
-
-    <!-- PIED DE PAGE (Identique aux autres pages) -->
-    <footer>
-        <div class="footer-logo">
-            <strong>IUT Chambéry</strong><br>
-            <span>MMI Chambéry</span>
-        </div>
-        
-        <div class="footer-nav">
-            <a href="#">Accueil</a>
-            <a href="presentation.php">Présentation</a>
-            <a href="#">Contact</a>
-            <a href="inscription.php">Inscription</a>
-        </div>
         
 <?php include 'footer.php'; ?>
 
