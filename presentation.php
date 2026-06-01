@@ -53,15 +53,7 @@ $infos_salle = $donnees_salles[$salle_active];
 </head>
 <body>
 
-    <header>
-        <div class="logo">E-LLUSION</div>
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="#" class="active">Présentation</a>
-            <a href="#">Contact</a>
-            <a href="#">Inscription</a>
-        </nav>
-    </header>
+<?php include 'header.php'; ?>
 
     <main>
         
@@ -117,21 +109,7 @@ $infos_salle = $donnees_salles[$salle_active];
         </section>
     </main>
 
-    <footer>
-        <div class="footer-logo">
-            <strong>IUT Chambéry</strong><br>
-            <span>MMI Chambéry</span>
-        </div>
-        <div class="footer-nav">
-            <a href="#">Accueil</a>
-            <a href="#">Présentation</a>
-            <a href="#">Contact</a>
-            <a href="#">Inscription</a>
-        </div>
-        <div class="footer-titre">
-            E-LLUSION<span class="point-rouge">.</span>
-        </div>
-    </footer>
+<?php include 'footer.php'; ?>
 
 </body>
 </html>

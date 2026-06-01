@@ -25,16 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
-    <!-- EN-TÊTE DU SITE -->
-    <header>
-        <div class="logo">E-LLUSION</div>
-        <nav>
-            <a href="#">Accueil</a>
-            <a href="presentation.php">Présentation</a>
-            <a href="#">Contact</a>
-            <a href="inscription.php" class="active">Inscription</a>
-        </nav>
-    </header>
+<?php include 'header.php'; ?>
 
     <!-- CONTENU PRINCIPAL -->
     <main>
@@ -148,10 +139,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="inscription.php">Inscription</a>
         </div>
         
-        <div class="footer-titre">
-            E-LLUSION<span class="point-rouge">.</span>
-        </div>
-    </footer>
+<?php include 'footer.php'; ?>
 
 </body>
 </html>
