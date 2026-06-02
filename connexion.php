@@ -11,6 +11,7 @@ try {
     
     // 3. Activation des alertes en cas d'erreur SQL
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
     
     // Message de test (on le supprimera dès que ça marchera)
     // echo "Connexion réussie à la base de données de l'exposition !";
