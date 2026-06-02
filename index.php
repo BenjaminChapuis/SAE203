@@ -12,17 +12,19 @@
 
 <!-- HERO -->
 <section class="hero">
+  <!-- Remplacement du texte "E" par l'affiche officielle -->
   <div class="hero-visual">
-    <span class="hero-visual-text">E</span>
+    <img src="Affiche_Cynthia_v2.jpg" alt="Affiche officielle de l'exposition E-LLUSION" style="width: 100%; height: 100%;">
   </div>
+  
   <div class="hero-content">
     <h1>E-LLUSION<span class="dot-rouge"></span></h1>
     <p class="sous-titre">Exposition d'œuvres interactives multimédia</p>
-    <p>Présentation générale de l'exposition. Texte à renseigner par l'équipe.</p>
+    <p>Bienvenue dans E-LLUSION, l'exposition numérique qui trouble vos sens et interroge notre rapport à la technologie. À travers des installations interactives et des créations multimédias conçues par les étudiants MMI de l'IUT de Chambéry, devenez l'acteur principal d'un parcours sensoriel captivant. Laissez-vous surprendre et bousculez vos perceptions.</p>
     <div class="hero-chips">
-      <span class="hero-chip">📅 18 & 19 juin 2026</span>
-      <span class="hero-chip">📍 IUT Chambéry</span>
-      <span class="hero-chip">🎟 Gratuit</span>
+      <span class="hero-chip"> 18 & 19 juin 2026</span>
+      <span class="hero-chip"> IUT Chambéry</span>
+      <span class="hero-chip"> Gratuit</span>
     </div>
     <a href="inscription.php" class="btn btn-primary" style="margin-top:8px; width:fit-content;">
       S'inscrire à l'exposition
@@ -50,7 +52,7 @@
   </div>
   <div class="lieu-content">
     <div class="lieu-visual">
-      <span class="lieu-visual-text">IUT</span>
+      <img src="iut_chambery.jpg" alt="image de l'iut de chambery" style="width: 100%; height: 100%; object-fit: cover;">
     </div>
     <div class="lieu-text">
       <p>28 Avenue du Lac d'Annecy<br>73370 Bourget-du-Lac<br><br>
