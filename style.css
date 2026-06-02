@@ -847,3 +847,39 @@ footer {
   .hero-content h1 { font-size: 38px; }
   .footer-brand    { font-size: 26px; }
 }
+
+/* ════════════════════════════════════════
+   PAGE LOGIN
+════════════════════════════════════════ */
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 57px - 200px);
+  padding: 48px;
+}
+
+.login-box {
+  background: var(--teal-light);
+  border-radius: var(--radius-lg);
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-box h1 {
+  font-family: var(--font-pixel);
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+.alert-error {
+  background: #fde8e8;
+  color: #c0392b;
+  padding: 12px 18px;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+}
