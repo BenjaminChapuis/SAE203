@@ -35,7 +35,7 @@
   <div class="referents-grid">
     <div class="referent-card">
       <p class="referent-salle">Salle 001</p>
-      <p>Nom de l'étudiant·e</p>
+      <p>Cynthia PEINNET</p>
       <p><a href="mailto:etudiant@univ-smb.fr">etudiant@univ-smb.fr</a></p>
     </div>
     <div class="referent-card">
