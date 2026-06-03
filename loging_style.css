@@ -1,0 +1,27 @@
+/* ════════════════════════════════════════
+   BOITE DE CONNEXION CENTRÉE
+════════════════════════════════════════ */
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 90px - 220px);
+  padding: 48px;
+}
+.login-box {
+  background: var(--box-gradient);
+  box-shadow: 0 20px 40px rgba(0, 143, 131, 0.06);
+  border-radius: var(--radius-lg);
+  padding: 54px 44px;
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.login-box h1 { font-family: var(--font-pixel); font-size: 34px; text-align: center; }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .login-section { padding: 20px; }
+}

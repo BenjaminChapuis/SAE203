@@ -1,0 +1,30 @@
+/* ════════════════════════════════════════
+   BANDEAU & EN-TÊTE D'INSCRIPTION
+════════════════════════════════════════ */
+.bandeau-inscription { background: var(--box-gradient); box-shadow: 0 20px 40px rgba(0, 143, 131, 0.06); border-radius: var(--radius-lg); margin: 40px 48px 0; padding: 50px 40px; text-align: center; }
+.bandeau-inscription h1 { font-family: var(--font-pixel); font-size: 40px; margin-bottom: 16px; }
+.bandeau-inscription p { font-size: 17px; color: var(--text-muted); }
+.bandeau-inscription .info-important { font-size: 28px; font-weight: bold; color: var(--teal-dark); margin-bottom: 8px; }
+.bandeau-inscription .info-gratuit { font-family: var(--font-pixel); background: var(--teal-light); color: var(--teal-darker); display: inline-block; padding: 6px 20px; border-radius: var(--radius-pill); margin-top: 14px; font-weight: bold; }
+
+.action-reservations { text-align: center; margin: 40px 0 0; }
+.btn-reservations { display: inline-block; background: var(--white); border-radius: var(--radius-pill); padding: 13px 40px; font-family: var(--font-pixel); font-size: 16px; color: var(--black); font-weight: bold; box-shadow: 0 6px 20px rgba(0,0,0,0.04); transition: all 0.2s; }
+.btn-reservations:hover { background: var(--teal-light); transform: translateY(-2px); }
+
+/* ════════════════════════════════════════
+   BLOC CONTENEUR DU FORMULAIRE DYNAMIQUE
+════════════════════════════════════════ */
+.section-formulaire { padding: 60px 48px 0; max-width: 800px; margin: 0 auto; width: 100%; }
+.section-formulaire h2 { font-family: var(--font-pixel); font-size: 32px; margin-bottom: 32px; padding-bottom: 10px; }
+
+/* Éléments injectés en JS ou blocs répétitifs */
+.resa-bloc { background: rgba(255,255,255,0.4); padding: 24px; border-radius: var(--radius-md); box-shadow: 0 4px 15px rgba(0,0,0,0.02); }
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .bandeau-inscription { padding-left: 20px; padding-right: 20px; margin-left: 20px; margin-right: 20px; }
+  .section-formulaire { padding: 40px 20px 0; }
+}
+@media (max-width: 480px) {
+  .bandeau-inscription h1 { font-size: 28px; }
+}

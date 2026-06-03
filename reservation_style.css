@@ -1,0 +1,25 @@
+/* ════════════════════════════════════════
+   SECTION DE RECAPITULATIFS & LISTES
+════════════════════════════════════════ */
+.reservation-section { padding: 60px 48px; max-width: 680px; margin: 0 auto; }
+.reservation-section h1 { font-family: var(--font-pixel); font-size: 36px; margin-bottom: 32px; }
+
+.reservation-recap { background: var(--box-gradient); box-shadow: 0 20px 40px rgba(0, 143, 131, 0.06); border-radius: var(--radius-lg); padding: 36px 44px; font-size: 17px; line-height: 2.4; margin-bottom: 32px; }
+.reservation-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+
+/* Liens ou tags boutons propres à l'édition d'une réservation */
+.btn-resa {
+  display: inline-flex;
+  align-items: center;
+  background: var(--white);
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--black);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  transition: all 0.2s ease;
+}
+.btn-resa:hover { background: var(--teal-light); transform: translateY(-1px); }
+.btn-resa.danger { color: #c0392b; background: rgba(192, 57, 43, 0.04); }
+.btn-resa.danger:hover { background: rgba(192, 57, 43, 0.1); }

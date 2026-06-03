@@ -95,6 +95,7 @@ $creneaux = $db->query("SELECT * FROM creneaux ORDER BY date_expo, heure_debut")
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-LLUSION – Modifier ma réservation</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reservation_style.css">
 </head>
 <body>
 

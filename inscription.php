@@ -141,6 +141,7 @@ if ($connecte) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>E-LLUSION – Inscription</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="inscription_style.css">
 </head>
 <body>
 
