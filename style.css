@@ -872,6 +872,7 @@ footer {
     align-items: center;
     text-align: center;
     padding: 40px 20px;
+
   }
 
   .footer-nav { flex-direction: column; gap: 16px; align-items: center; }
@@ -885,4 +886,8 @@ footer {
   .hero-content h1 { font-size: 44px; }
   .dates-badge    { font-size: 34px; padding: 12px 24px; }
   .bandeau-inscription h1 { font-size: 28px; }
+}
+
+img {
+  border-radius: 20px; 
 }

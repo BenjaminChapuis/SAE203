@@ -37,10 +37,10 @@
   <div class="dates-left">
     <div class="dates-badge">18-19/06</div>
     <p>Jeudi 18 juin : 15h → 20h<br>Vendredi 19 juin : 9h30 → 11h</p>
-    <p>Venez découvrir les œuvres interactives créées par les étudiants MMI de l'IUT de Chambéry.</p>
+    <p>Venez découvrir les œuvres interactives créées par les étudiants MMI1 de l'IUT de Chambéry.</p>
   </div>
   <div class="dates-visual">
-    <span class="dates-visual-text">2026</span>
+    <img src="img.jpg" alt="image style" style="width: 100%; height: 100%;">  
   </div>
 </section>
 
