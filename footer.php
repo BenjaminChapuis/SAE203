@@ -1,6 +1,6 @@
 <footer>
   <div class="footer-logos">
-    <img src="/SAE203/images/iut.png" alt="Logo IUT Chambéry">
+    <a href="https://www.iut-chy.univ-smb.fr/"><img src="/SAE203/images/iut.png" alt="Logo IUT Chambéry"></a>
     <img src="/SAE203/images/mmi.png" alt="Logo MMI">
   </div>
   <ul class="footer-nav">
