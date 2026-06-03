@@ -204,9 +204,9 @@ $dispos = $req_dispo->fetchAll();
   <!-- SIDEBAR -->
   <aside class="admin-sidebar">
     <p class="sidebar-title">Admin</p>
-    <a href="dashboard.php" class="sidebar-link active">📊 Tableau de bord</a>
-    <a href="reservations.php" class="sidebar-link">📋 Réservations</a>
-    <a href="creneaux.php" class="sidebar-link">🕐 Créneaux</a>
+    <a href="dashboard.php" class="sidebar-link active"> Tableau de bord</a>
+    <a href="reservations.php" class="sidebar-link"> Réservations</a>
+    <a href="creneaux.php" class="sidebar-link"> Créneaux</a>
     <a href="../logout.php" class="sidebar-logout">← Déconnexion</a>
   </aside>
 
