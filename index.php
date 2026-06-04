@@ -13,9 +13,8 @@
 
 <!-- HERO -->
 <section class="hero">
-  <!-- Remplacement du texte "E" par l'affiche officielle -->
   <div class="hero-visual">
-    <img src="Affiche_Cynthia_v2.jpg" alt="Affiche officielle de l'exposition E-LLUSION" style="width: 100%; height: 100%;">
+    <img src="Affiche_Cynthia_v2.jpg" alt="Affiche officielle de l'exposition E-LLUSION">
   </div>
   
   <div class="hero-content">
@@ -41,7 +40,7 @@
     <p>Venez découvrir les œuvres interactives créées par les étudiants MMI1 de l'IUT de Chambéry.</p>
   </div>
   <div class="dates-visual">
-    <img src="img.jpg" alt="image style" style="width: 100%; height: 100%;">  
+    <img src="img.jpg" alt="image style">
   </div>
 </section>
 
@@ -53,7 +52,7 @@
   </div>
   <div class="lieu-content">
     <div class="lieu-visual">
-      <img src="iut_chambery.jpg" alt="image de l'iut de chambery" style="width: 100%; height: 100%; object-fit: cover;">
+      <img src="iut_chambery.jpg" alt="image de l'iut de chambery">
     </div>
     <div class="lieu-text">
       <p>28 Avenue du Lac d'Annecy<br>73370 Bourget-du-Lac<br><br>

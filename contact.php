@@ -17,7 +17,7 @@
     <div class="contact-info-item">
       <div class="info-label">Responsable du projet</div>
       <p>François Piranda</p>
-      <p><a href="mailto:fp@univ-smb.fr">fp@univ-smb.fr</a></p>
+      <p><a href="fpira@univ-savoie.fr">fpira@univ-savoie.fr</a></p>
     </div>
     <div class="contact-info-item">
       <div class="info-label">Téléphone</div>
@@ -36,12 +36,12 @@
     <div class="referent-card">
       <p class="referent-salle">Salle 001</p>
       <p>Cynthia PEINNET</p>
-      <p><a href="mailto:etudiant@univ-smb.fr">etudiant@univ-smb.fr</a></p>
+      <p><a href="mailto:peinnetc@etu.univ-smb.fr">peinnetc@etu.univ-smb.fr</a></p>
     </div>
     <div class="referent-card">
       <p class="referent-salle">Salle 002</p>
-      <p>Nom de l'étudiant·e</p>
-      <p><a href="mailto:etudiant@univ-smb.fr">etudiant@univ-smb.fr</a></p>
+      <p>Kylian PROVOT</p>
+      <p><a href="mailto:provotk@etu.univ-smb.fr">provotk@etu.univ-smb.fr</a></p>
     </div>
     <div class="referent-card">
       <p class="referent-salle">Salle 005</p>
@@ -51,7 +51,7 @@
     <div class="referent-card">
       <p class="referent-salle">Salle 021</p>
       <p>Benjamin RENOLLET</p>
-      <p><a href="mailto:etudiant@univ-smb.fr">etudiant@univ-smb.fr</a></p>
+      <p><a href="mailto:renolleb@etu.univ-smb.fr">renolleb@etu.univ-smb.fr</a></p>
     </div>
   </div>
 </div>
